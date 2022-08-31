@@ -22,9 +22,9 @@
   <p align="center">
     An app to generate random passwords with some useful options.
     <br />
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Siza36/password-generator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="#contributing">Request Feature</a>
   </p>
 </div>
 
