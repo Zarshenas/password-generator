@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./README-Template/images/Pro sefid.png" alt="Logo" width="80" height="80">
+    <img src="./README srcs/images/Pro sefid.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 id="about-the-project" align="center">Password Generator App</h3>
@@ -138,7 +138,7 @@ Project Link: [https://github.com/Siza36/password-generator](https://github.com/
 [stars-url]: https://github.com/Siza36/password-generator/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Siza36/password-generator.svg?style=for-the-badge
 [issues-url]: https://github.com/Siza36/password-generator/issues
-[product-screenshot]: ./README-Template/images/screenshot.png
+[product-screenshot]: ./README%20srcs/images/screenshot.png
 [vanilla-js]: https://img.shields.io/badge/javascript-ecf000?style=for-the-badge&logo=javascript&logoColor=black
 [js-url]: https://javascript.com/
 [sass]: https://img.shields.io/badge/Sass-ff8ffb?style=for-the-badge&logo=Sass&logoColor=white
