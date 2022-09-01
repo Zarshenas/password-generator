@@ -103,9 +103,9 @@ If this is your first time making a website and is having trouble getting starte
 2. Click the Fork button on the upper right-hand side of this page
 
 ### How do I rename the forked repository?
-1. Navigate to the main page of the repository. It should be `https://github.com/username/studorlio/`, where `username` is your GitHub username
+1. Navigate to the main page of the repository. It should be `https://github.com/username/password-generator/`, where `username` is your GitHub username
 2. Click Settings
-3. Under the Repository name heading, type `username.github.io` then click Rename
+3. Under the Repository name heading, type `new repo name` then click Rename
 
 ### How do I run the project locally?
 1. Right click (Windows) or double click (Mac) `index.html` and select "Open with"
