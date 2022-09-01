@@ -65,7 +65,7 @@
 <!-- PROJECT VIEW -->
 ## The Project View
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]
 
 
 
