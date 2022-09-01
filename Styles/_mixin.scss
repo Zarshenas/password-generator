@@ -1,0 +1,23 @@
+@mixin flex ($dir ,$justify , $align) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content:$justify ;
+    align-items: $align;
+}
+@mixin query($width) {
+    @if ($width == 1200) {
+        @media (max-width:1200px) {
+            @content;
+        }
+    }
+    @else if ($width == 800){
+        @media (max-width:800px) {
+            @content;
+        }
+    }
+    @else if ($width == 400){
+        @media (max-width:400px) {
+            @content;
+        }
+    }
+}

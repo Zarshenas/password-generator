@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+}
+
+.bg {
+  background-image: url(../Images/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 12%;
+}
+@media (max-width: 800px) {
+  .bg {
+    padding-top: 20%;
+  }
+}
+@media (max-width: 400px) {
+  .bg {
+    padding-top: 50%;
+  }
+}
+
+#container {
+  width: 50vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 35px 35px 10px 35px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  #container {
+    width: 70vw;
+  }
+}
+@media (max-width: 800px) {
+  #container {
+    width: 95vw;
+    padding: 35px 20px 10px 20px;
+  }
+}
+@media (max-width: 400px) {
+  #container {
+    width: 95vw;
+    padding: 35px 10px 10px 10px;
+  }
+}
+#container #header-title {
+  background: hsla(0deg, 0%, 100%, 0.438);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: #000000;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  padding: 10px;
+}
+@media (max-width: 1200px) {
+  #container #header-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  #container #header-title {
+    font-size: 18px;
+  }
+}
+
+.result-container {
+  background: hsla(0deg, 0%, 100%, 0.281);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .result-container {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 400px) {
+  .result-container {
+    padding: 10px 10px;
+  }
+}
+.result-container #result {
+  font-weight: 800;
+  color: #3a2f9b;
+  font-size: 24px;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+       user-select: all;
+}
+@media (max-width: 1200px) {
+  .result-container #result {
+    font-size: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .result-container #result {
+    font-size: 12px;
+  }
+}
+.result-container button[title=copy] {
+  background: #473caa;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 5px 10px 0 rgba(31, 38, 135, 0.37);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.result-container button[title=copy] i {
+  color: white;
+  font-size: 24px;
+}
+@media (max-width: 1200px) {
+  .result-container button[title=copy] i {
+    font-size: 14px;
+  }
+}
+
+.manage-settings {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.manage-settings .setting {
+  width: 100%;
+  height: 100%;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.manage-settings .setting .setting-title {
+  color: #09024e;
+  font-size: 24px;
+}
+@media (max-width: 1200px) {
+  .manage-settings .setting .setting-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .manage-settings .setting .setting-title {
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .manage-settings .setting .setting-title {
+    font-size: 15px;
+  }
+}
+.manage-settings .setting .number-inpt {
+  font-size: 18px;
+  border: 2px solid #473caa;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.manage-settings .setting .number-inpt:focus {
+  outline: none;
+}
+.manage-settings .setting .checkbox-inpt {
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+
+.generate {
+  margin: 35px 0;
+  width: 100%;
+}
+.generate #generateBtn {
+  width: 70%;
+  height: 100%;
+  color: #09024e;
+  background: hsla(0deg, 0%, 100%, 0.438);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 24px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 800;
+}
+@media (max-width: 1200px) {
+  .generate #generateBtn {
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) {
+  .generate #generateBtn {
+    font-size: 14px;
+    font-weight: 800;
+  }
+}
+.generate #generateBtn:hover {
+  color: #ffffff;
+  background: rgba(10, 2, 78, 0.6705882353);
+}
+
+.cursor {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

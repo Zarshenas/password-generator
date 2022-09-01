@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://kit.fontawesome.com/4c0d37a6d5.js" crossorigin="anonymous"></script>
+    <title>Password Generator</title>
+</head>
+<body>
+        <div class="bg">
+            <div id="container">
+                <h1 id="header-title">Password Generator</h1>
+                <div class="result-container">
+                    <span id="result"></span>
+                    <button title="copy" id="clipboard" class='cursor'><i class="fa-regular fa-clipboard"></i></button>
+                </div>
+                <div class="manage-settings">
+                    <div class="setting">
+                        <label class="setting-title" for="length">Password Length</label>
+                        <input class="number-inpt input" id="length" title="length" type="number" min='4' max='20' value='10'>
+                    </div>
+                    <div class="setting">
+                        <label class="setting-title" for="Uppercase">Include Uppercase Letters</label>
+                        <input class="checkbox-inpt input" id="Uppercase" title="Uppercase" type="checkbox">
+                    </div>
+                    <div class="setting">
+                        <label class="setting-title" for="Lowercase">Include Lowercase Letters</label>
+                        <input class="checkbox-inpt input" id="Lowercase" title="Lowercase" type="checkbox">
+                    </div>
+                    <div class="setting">
+                        <label class="setting-title" for="Numbers">Include Numbers</label>
+                        <input class="checkbox-inpt input" id="Numbers" title="Numbers" type="checkbox">
+                    </div>
+                    <div class="setting">
+                        <label class="setting-title" for="Symbols">Include Symbols</label>
+                        <input class="checkbox-inpt input" id="Symbols" title="Symbols" type="checkbox">
+                    </div>
+                    <div class="generate">
+                        <button class="cursor" id="generateBtn">Generate Password</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script type="module" src="./Javascript/app.js"></script>
+<script type="module" src="./Javascript/toastify.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</html>
