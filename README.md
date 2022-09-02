@@ -19,6 +19,7 @@
 
 <h3 id="about-the-project" align="center">Password Generator App</h3>
 
+  <h1 align="center">Open the index.html file with Live Server</h1>
   <p align="center">
     An app to generate random passwords with some useful options.
     <br />
@@ -108,8 +109,9 @@ If this is your first time making a website and is having trouble getting starte
 3. Under the Repository name heading, type `new repo name` then click Rename
 
 ### How do I run the project locally?
-1. Right click (Windows) or double click (Mac) `index.html` and select "Open with"
-2. Pick your browser of choice
+1. Open the `index.html` file with your favorite IDE
+2. Install a `live server` extention
+3. Open `index.html` with `live server`
 
 ## Contributing
 
