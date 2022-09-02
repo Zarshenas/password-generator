@@ -1,6 +1,5 @@
 import toastifyJs from "./toastify.js";
 
-
 const passwordLength = document.getElementById("length");
 const elUppercase = document.getElementById("Uppercase");
 const elLowercase = document.getElementById("Lowercase");
